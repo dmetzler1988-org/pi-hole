@@ -11,6 +11,7 @@
 4. Change password with command `passwd`.  
 5. Install updates and upgrades with command `sudo apt-get update && sudo apt-get upgrade`.  
 6. Run installation script for Pi-hole `curl -sSL https://install.pi-hole.net | bash`.  
+    - Don't forget to write down your password, which was shown after installation.
 7. After installation steps, take a look, if admin site is reachable.
     - http://IP.OF.PI.HOLE/admin (as example: http://192.168.1.5/admin)
     - http://pi.hole/admin (only if you had add it as DNS Server to your router)
@@ -25,6 +26,10 @@
 10. Test, if all works fine with a page like this [https://blockads.fivefilters.org/?pihole](https://blockads.fivefilters.org/?pihole).
     - Don't forget to disable the browser extensions which will block ad's also.
 11. Add additional blocklists and whitelists to your Pi-hole configuration.
+
+### Additional info
+
+The install log will be saved under `etc/pihole`.
 
 ## Blocklist
 
