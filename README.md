@@ -1,11 +1,4 @@
-# PiHole Configs
-
-## Blocklist
-Currently only my [Pi-hole blocklist](/blocklist.txt) is available which you can configure under the [Pi-hole blocklist setting page](http://pi.hole/admin/settings.php?tab=blocklists).
-
-It includes all the lists from [https://firebog.net/](https://firebog.net/).
-
-With this you may add a lot of websites to your whitelist.
+# Pi-hole config
 
 ## Installation Introduction
 
@@ -32,6 +25,12 @@ With this you may add a lot of websites to your whitelist.
 10. Test, if all works fine with a page like this [https://blockads.fivefilters.org/?pihole](https://blockads.fivefilters.org/?pihole).
     - Don't forget to disable the browser extensions which will block ad's also.
 11. Add additional blocklists and whitelists to your Pi-hole configuration.
+
+## Blocklist
+
+Currently only my [Pi-hole blocklist](/blocklist.txt) is available which you can configure under the [Pi-hole blocklist setting page](http://pi.hole/admin/settings.php?tab=blocklists).  
+It includes all the lists from [https://firebog.net/](https://firebog.net/).  
+With this you may add a lot of websites to your whitelist.  
 
 ## Pi-hole command list
 
