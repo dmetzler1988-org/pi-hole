@@ -32,3 +32,15 @@ With this you may add a lot of websites to your whitelist.
 10. Test, if all works fine with a page like this [https://blockads.fivefilters.org/?pihole](https://blockads.fivefilters.org/?pihole).
     - Don't forget to disable the browser extensions which will block ad's also.
 11. Add additional blocklists and whitelists to your Pi-hole configuration.
+
+## Pi-hole command list
+
+A command list with examples for Pi-hole can be found [here](https://discourse.pi-hole.net/t/the-pihole-command-with-examples/738)
+
+## Additional links
+
+- [https://pi-hole.net/](https://pi-hole.net/)  
+- [https://www.kuketz-blog.de/pi-hole-schwarzes-loch-fuer-werbung-raspberry-pi-teil1/](https://www.kuketz-blog.de/pi-hole-schwarzes-loch-fuer-werbung-raspberry-pi-teil1/)  
+- [https://datenschutz.ekd.de/2018/04/12/pi-hole-ein-erfahrungsbericht/](https://datenschutz.ekd.de/2018/04/12/pi-hole-ein-erfahrungsbericht/)  
+- [https://www.mielke.de/blog/Mit-dem-Pi-hole-einen-Werbeblocker-fuer-das-gesamte-lokale-Netz-einrichten--488/](https://www.mielke.de/blog/Mit-dem-Pi-hole-einen-Werbeblocker-fuer-das-gesamte-lokale-Netz-einrichten--488/)  
+- [https://community.ubnt.com/t5/EdgeRouter/Simplest-setup-to-integrate-a-pi-hole/td-p/2437427](https://community.ubnt.com/t5/EdgeRouter/Simplest-setup-to-integrate-a-pi-hole/td-p/2437427)  
