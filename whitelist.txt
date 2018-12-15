@@ -23,3 +23,6 @@ feedly.com
 
 # Not know, but needed
 s3-eu-central-1.amazonaws.com
+
+# Adobe Updates
+get3.adobe.com
