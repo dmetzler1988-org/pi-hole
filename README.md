@@ -21,7 +21,7 @@
     - Save and close file
     - Restart the cronjob service `sudo service cron restart`  
 9. Set up a new password for your admin interface via `pihole -a -p p4ssW0rd#`.
-8. Go to your router and configure the Pi-hole as DNS Server (only this one, no second one is allowed. It will not work correctly, if you add 8.8.8.8 or similar as second DNS Server).
+8. Go to your router and configure the Pi-hole as DNS Server (only this one, no second one is allowed. It will not work correctly, if you add 8.8.8.8 or similar as second DNS Server). Use the IP-Address if your Pi-hole as DNS Server.
 9. Restart all your devices (router, smartphones, pc, ...) to make sure, that all receives an IP update with the new settings.
 10. Test, if all works fine with a page like this [https://blockads.fivefilters.org/?pihole](https://blockads.fivefilters.org/?pihole).
     - Don't forget to disable the browser extensions which will block ad's also.
