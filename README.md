@@ -27,13 +27,29 @@
     - Don't forget to disable the browser extensions which will block ad's also.
 11. Add additional blocklists and whitelists to your Pi-hole configuration.
 
+### Manual update
+
+To trigger a manual update, connect with your SSH client to your pihole and type in the following command:
+
+```sh
+pihole -up
+```
+
+### Repair/Reinstall (if something was wrong during update)
+
+Use this command for repair or reinstall after something was broken during installation or update.
+
+```sh
+pihole reconfigure
+```
+
 ### Additional info
 
-The install log will be saved under `etc/pihole`.
+The install log and all custom configurations (like blacklists, whitelists, ...) will be saved under `/etc/pihole`.
 
 ## Blocklist
 
-Currently only my [Pi-hole blocklist](/blocklist.txt) is available which you can configure under the [Pi-hole blocklist setting page](http://pi.hole/admin/settings.php?tab=blocklists).  
+Currently only my [Pi-hole blocklist](/blacklists/blocklist.txt) is available which you can configure under the [Pi-hole blocklist setting page](http://pi.hole/admin/settings.php?tab=blocklists).  
 It includes all the lists from [https://firebog.net/](https://firebog.net/).  
 With this you may add a lot of websites to your whitelist.  
 
@@ -43,9 +59,11 @@ A whitelist is hosted here on bottom [https://firebog.net/](https://firebog.net/
 A more detailed whitelist you can find here [https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212](https://discourse.pi-hole.net/t/commonly-whitelisted-domains/212).  
 If you will not fill in all manually, you can use this method over an script [https://github.com/anudeepND/whitelist](https://github.com/anudeepND/whitelist).
 
-I also had added my current [whitelist](/whitelist.txt) as backup.
+I also had added my current [whitelist](/whitelists/whitelist.txt) as backup.
 
-## Pi-hole command list
+## Pi-hole documentation
+
+A documentation with also a detailed command list can be found [here](https://docs.pi-hole.net/)
 
 A command list with examples for Pi-hole can be found [here](https://discourse.pi-hole.net/t/the-pihole-command-with-examples/738).
 

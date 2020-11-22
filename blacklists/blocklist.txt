@@ -17,6 +17,24 @@ https://raw.githubusercontent.com/anudeepND/blacklist/master/adservers.txt
 https://raw.githubusercontent.com/chadmayfield/my-pihole-blocklists/master/lists/pi_blocklist_porn_all.list
 https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
 https://raw.githubusercontent.com/Dawsey21/Lists/master/main-blacklist.txt
+https://raw.githubusercontent.com/dmetzler1988-org/pi-hole/master/blacklists/restored/hosts-ad-servers.txt
+https://raw.githubusercontent.com/dmetzler1988-org/pi-hole/master/blacklists/restored/hosts-emd.txt
+https://raw.githubusercontent.com/dmetzler1988-org/pi-hole/master/blacklists/restored/hosts-exp.txt
+https://raw.githubusercontent.com/dmetzler1988-org/pi-hole/master/blacklists/restored/hosts-fsa.txt
+https://raw.githubusercontent.com/dmetzler1988-org/pi-hole/master/blacklists/restored/hosts-grm.txt
+https://raw.githubusercontent.com/dmetzler1988-org/pi-hole/master/blacklists/restored/hosts-mmt.txt
+https://raw.githubusercontent.com/dmetzler1988-org/pi-hole/master/blacklists/restored/hosts-pha.txt
+https://raw.githubusercontent.com/dmetzler1988-org/pi-hole/master/blacklists/restored/hosts-psh.txt
+https://raw.githubusercontent.com/dmetzler1988-org/pi-hole/master/blacklists/sorted/adobe.txt
+https://raw.githubusercontent.com/dmetzler1988-org/pi-hole/master/blacklists/sorted/analytics.txt
+https://raw.githubusercontent.com/dmetzler1988-org/pi-hole/master/blacklists/sorted/crypto-mine.txt
+https://raw.githubusercontent.com/dmetzler1988-org/pi-hole/master/blacklists/sorted/fake-games.txt
+https://raw.githubusercontent.com/dmetzler1988-org/pi-hole/master/blacklists/sorted/fake-jailbreak.txt
+https://raw.githubusercontent.com/dmetzler1988-org/pi-hole/master/blacklists/sorted/fake-news-de.txt
+https://raw.githubusercontent.com/dmetzler1988-org/pi-hole/master/blacklists/sorted/mobile.txt
+https://raw.githubusercontent.com/dmetzler1988-org/pi-hole/master/blacklists/sorted/nintendo.txt
+https://raw.githubusercontent.com/dmetzler1988-org/pi-hole/master/blacklists/sorted/others.txt
+https://raw.githubusercontent.com/dmetzler1988-org/pi-hole/master/blacklists/sorted/smart-tv.txt
 https://raw.githubusercontent.com/HorusTeknoloji/TR-PhishingList/master/url-lists.txt
 https://raw.githubusercontent.com/matomo-org/referrer-spam-blacklist/master/spammers.txt
 https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt
@@ -56,5 +74,5 @@ https://zerodot1.gitlab.io/CoinBlockerLists/hosts
 https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist
 
 # TODO
-- Add my own hosted lists.
 - Order from blacklist.txt to backup files from pihole.
+- Check duplicated entries in own lists
