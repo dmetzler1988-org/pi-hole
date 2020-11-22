@@ -1,4 +1,4 @@
-# README
+# Sorted
 
 ## Lists
 ### To block ads in apps on iOS and Android

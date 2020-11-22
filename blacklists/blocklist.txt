@@ -72,7 +72,3 @@ https://www.joewein.net/dl/bl/dom-bl-base.txt
 https://www.malwaredomainlist.com/hostslist/hosts.txt
 https://zerodot1.gitlab.io/CoinBlockerLists/hosts
 https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist
-
-# TODO
-- Order from blacklist.txt to backup files from pihole.
-- Check duplicated entries in own lists
