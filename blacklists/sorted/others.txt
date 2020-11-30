@@ -26,7 +26,6 @@ add-extension.xyz
 addeals.s3.amazonaws.com
 addealsnetwork.com
 admanager.pushfire.de
-adnxs.com
 ads.addealsnetwork.com
 ads.exosrv.com
 ads.lapalingo.com
@@ -145,7 +144,6 @@ cdn3.cpmstar.com
 cdn6.mycliplister.com
 cds.h8d7y3k5.hwcdn.net
 ch.vvallor.xyz
-chainblock.science
 chancesaregifts.stream
 charmour.club
 chat.wiiuusbhelper.com
@@ -257,7 +255,7 @@ hodlers.party
 hothentaitube.com
 hywasyretac.tk
 i10c.net
-ib.adnxs.com
+
 ibunker.us
 ichwuerde.de
 idsync.rlcdn.com

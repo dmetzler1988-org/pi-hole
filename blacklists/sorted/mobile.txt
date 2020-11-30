@@ -29,7 +29,6 @@ ad-center.com
 ad-stir.com
 ad-sys.com
 ad.adworx.at
-ad.doubleclick.net
 ad.fyber.angsrvr.com
 ad.prismamediadigital.com
 ad120m.com
@@ -90,7 +89,6 @@ adnetworkperformance.com
 adnium.com
 adnotch.com
 adnow.com
-adnxs.com
 adocean.pl
 adorika.net
 adotube.com
@@ -375,7 +373,6 @@ gsp-aeu004-se29.gamesparks.net
 gsp-aeu004-se30.gamesparks.net
 gsp-aeu004-se31.gamesparks.net
 gumgum.com
-h2.msn.com
 heise.nuggad.net
 heyzap.com
 hkg1.aastocks.com
@@ -558,7 +555,6 @@ pushwoosh.com
 q4mn.adj.st
 quantcount.com
 questionmarket.com
-rad.msn.com
 rarenok.biz
 readserver.net
 redintelligence.net
