@@ -1,7 +1,6 @@
 <?php
 
 // TODO: remove 'restored' on '$ignoredFolders'
-// TODO: add check for ignored lines like comments
 // TODO: try speedups for checks
 // TODO: make output to csv, txt and simple echo to choose via option on run command
 
@@ -9,7 +8,7 @@ class FindDuplicates
 {
     protected array $ignoredFiles = ['README.md', '.DS_Store', 'blocklist.txt'];
     protected array $ignoredFolders = ['.', '..', 'backup', 'restored'];
-    protected array $ignoredLines = ['#'];
+    protected array $ignoredLines = ['comments' => '/^\#/'];
 
     public function __construct()
     {
@@ -26,8 +25,16 @@ class FindDuplicates
             foreach ($merged as $mergeKey => $mergeValue) {
                 foreach ($fileValue as $fileContent) {
                     foreach ($mergeValue as $mergedContent) {
+                        if (
+                            empty($fileContent) ||
+                            empty($mergedContent) ||
+                            preg_match($this->ignoredLines['comments'], $fileContent) ||
+                            preg_match($this->ignoredLines['comments'], $mergedContent)
+                        ) {
+                            continue;
+                        }
+
                         if ($mergedContent === $fileContent) {
-                            // TODO: check ignored lines (like comments)
                             echo $fileKey . ' : ' . $fileContent . ' -> ' . $mergeKey . ' : ' . $mergedContent . PHP_EOL;
                         }
                     }
