@@ -12,6 +12,9 @@ class FindDuplicates
 
     public function __construct()
     {
+        $mergedFile = fopen('mergedFile.txt', 'w') or die("Can't create file");
+        $singleContent = null;
+
         $files = $this->recursiveScanDir('blacklists');
         $filesContent = $this->getFilesContents($files);
 
@@ -25,6 +28,7 @@ class FindDuplicates
             foreach ($merged as $mergeKey => $mergeValue) {
                 foreach ($fileValue as $fileContent) {
                     foreach ($mergeValue as $mergedContent) {
+                        // Ignore comments and empty lines.
                         if (
                             empty($fileContent) ||
                             empty($mergedContent) ||
@@ -34,15 +38,31 @@ class FindDuplicates
                             continue;
                         }
 
+                        // Output duplicated file-based elements.
                         if ($mergedContent === $fileContent) {
                             echo $fileKey . ' : ' . $fileContent . ' -> ' . $mergeKey . ' : ' . $mergedContent . PHP_EOL;
+
+                            continue;
                         }
+
+                        // Check if
+                        if (str_contains($singleContent, $mergedContent)) {
+                            //echo 'content already exist: ';
+                            //echo $mergeKey . ' : ' . $mergedContent . PHP_EOL;
+
+                            continue;
+                        }
+
+                        $singleContent = $singleContent . $mergedContent . PHP_EOL;
                     }
                 }
             }
 
             $merged[$fileKey] = $fileValue;
         }
+
+        fwrite($mergedFile, $singleContent . PHP_EOL);
+        fclose($mergedFile);
     }
 
     protected function recursiveScanDir($dir, &$results = []): array
